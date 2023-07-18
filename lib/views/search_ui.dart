@@ -86,9 +86,10 @@ class SearchUI extends StatelessWidget {
                 child: TextField(
                   keyboardType: TextInputType.text,
                   style: GoogleFonts.kanit(
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                   decoration: InputDecoration(
+                    border: InputBorder.none,
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(
                         color: Colors.black,
